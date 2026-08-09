@@ -317,7 +317,7 @@ The backend exposes the following main endpoints:
 
 Example request:
 ```bash
-curl -X POST http://127.0.0.1:8001/run-agent \
+curl -X POST http://____________/run-agent \
   -H "Content-Type: application/json" \
   -d '{"query":"Analyze field conditions","agent1":{},"agent2":{},"agent3":{}}'
 ```
