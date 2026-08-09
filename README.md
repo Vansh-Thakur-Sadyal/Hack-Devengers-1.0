@@ -34,7 +34,7 @@ The application does **not** run on a shared/serverless platform — it is deplo
    │      │                    │            │
    │      ▼                    ▼            │
    │  Static Frontend     FastAPI Backend   │
-   │  (HTML/CSS/JS)       (Uvicorn :8001)   │
+   │  (HTML/CSS/JS)       (Uvicorn)   │
    │                          │             │
    │                          ▼             │
    │              Multi-Agent Orchestrator  │
