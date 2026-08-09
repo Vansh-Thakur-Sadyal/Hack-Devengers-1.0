@@ -273,7 +273,7 @@ Make sure you have created and activated your virtual environment and installed 
 
 ```bash
 cd backend
-python -m uvicorn api.server:app --reload --host 0.0.0.0 --port 8001
+python -m uvicorn api.server:app --reload --host _____ --port ___
 ```
 
 This command runs the FastAPI backend server with live reload enabled.
@@ -283,12 +283,12 @@ From the project root, open the frontend in a simple static server:
 
 ```bash
 cd frontend
-python -m http.server 3000
+python -m http.server ___
 ```
 
 Then visit:
-- http://localhost:3000/index.html
-- http://localhost:8001/docs for FastAPI docs
+- http://localhost:___/index.html
+- http://localhost:___/docs for FastAPI docs
 
 ---
 
@@ -332,7 +332,7 @@ The frontend is a lightweight dashboard for interacting with the system. It lets
 - visualize system health
 - interact with the chatbot interface
 
-The dashboard communicates with the backend (locally at `http://127.0.0.1:8001`, and in production through the hosted domain via the reverse proxy).
+The dashboard communicates with the backend (locally at `http://__________`, and in production through the hosted domain via the reverse proxy).
 
 ---
 
